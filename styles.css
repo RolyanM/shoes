@@ -43,7 +43,10 @@
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
+    
   }
+
+
 
   .row{
     display: flex;
@@ -73,7 +76,18 @@
 
   .sale{
     color: red;
+    font-weight: bold;
   }
+
+  .all-sale-items:hover {
+    text-shadow:
+   
+    1px 1px 0 black;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
 
   .col-2{
    
@@ -359,10 +373,17 @@ tr, th, td {
     font-weight: 300;
   }
 
+  strong{
+    font-weight: bold;
+    margin-top: 50px;
+  }
+
   .order-right {
+    padding: 10px 100px;
+    margin-top: 50px;
     order: 0;
     flex: 0 1 auto;
-    align-self: auto;
+    align-self: inherit;
     }
 
     .order-right ul{
