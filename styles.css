@@ -504,7 +504,7 @@ tr, th, td {
   .overlay {
    width: 100vw;
   }
-
+}
 
 .overlay p{
   color: white;
@@ -568,4 +568,4 @@ tr, th, td {
   align-items: flex-start;
   
 }
-}
+
