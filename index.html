@@ -1,118 +1,351 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <title>Lace-Up Trainer</title>
 </head>
+
 <body>
   <div class="container">
-  
-  <!-- Nav bar -->
+
+    <!-- Nav bar -->
     <div class="navbar">
       <div class="logo">
         <img src="./images/logo.png" alt="Jones Bootmaker logo" width=125px>
       </div>
       <nav>
         <div class="small_header_links">
-            <ul>
-          <li><a href="">Help</a></li>
-          <li><a href="">Store Locator</a></li>
-          <li><a href="">Wishlist</a></li>
-        </ul>
-      </div>
-       </nav>
+          <ul>
+            <li><a href="">Help</a></li>
+            <li><a href="">Store Locator</a></li>
+            <li><a href="">Wishlist</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-1">
+      <ul>
+        <li><a href="">Ladies</a></li>
+        <li><a href="">Mens</a></li>
+        <li><a href="">Brands</a></li>
+        <li><a href="">Bags & Accessories</a></li>
+        <li><a href="">New In</a></li>
+        <li><a href="">Best Sellers</a></li>
+        <li><a href="" class="sale">Sale</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="col-2">
+    <p>Express Delivery 7 days a week</p>
+    <p>FREE Standard UK Delivery £95 & Over</p>
+    <p>10% off all sale items</p>
+  </div>
+
+  <div class="header">
+    <h1 id="demo"></h1>
+  </div> 
+
+
+  <!-- Image Slider -->
+
+  <div id="content-wrapper">
+
+    <div class="column">
+      <img id="featured" src="./images/black-sketch1.jpg" alt="">
+
+      <div id="slide-wrapper">
+        <img id="slideLeft" class="arrow" src="./images/arrow_back_ios_black_24dp.svg" alt="back arrow">
+
+        <div id="slider">
+          <img class="thumbnail active" src="./images/black-sketch1.jpg" alt="">
+          <img class="thumbnail" src="./images/black-sketch2.jpg" alt="">
+          <img class="thumbnail" src="./images/black-sketch3.jpg" alt="">
+          <img class="thumbnail" src="./images/black-sketch4.jpg" alt="">
+          <img class="thumbnail" src="./images/black-sketch5.jpg" alt="">
+          <img class="thumbnail" src="./images/black-sketch6.jpg" alt="">
+        </div>
+
+        <img id="slideRight" class="arrow" src="./images/arrow_forward_ios_black_24dp.svg" alt="forward arrow">
       </div>
     </div>
 
-    <div class="row">
-      <div class="col-1">
-        <ul>
-          <li><a href="" >Ladies</a></li>
-          <li><a href="">Mens</a></li>
-          <li><a href="">Brands</a></li>
-          <li><a href="">Bags & Accessories</a></li>
-          <li><a href="">New In</a></li>
-          <li><a href="">Best Sellers</a></li>
-          <li><a href="" class="sale">Sale</a></li>
-        </ul>
-      </div>
-      </div>
-      <div class="col-2">
-        <p>Express Delivery 7 days a week</p>
-        <p>FREE Standard UK Delivery £95 & Over</p>
-        <p>10% off all sale items</p>
-      </div>
+    <div class="column">
+      <h1> Skechers Lace-Up Trainer</h1>
+      <hr>
+      <h3 class="newPrice">£48.99</h3>
+      <h3 class="RRP">RRP£69.99</h3>
 
-<!-- Image Slider -->
-     
-      <div id="content-wrapper">
+      <p>Ready, get flex, go! <br> Make comfort your advantage to your sporty days, the lightweight trainer by Skechers is
+        fitted with a memory foam insole for moulded cushioned support and padded linings for an exceptional comfort
+        fit. Complete with a lightweight, flexible sole with shock absorbing technology.
+
+        <ul>Gender: Male</ul>
+
+        <ul>Upper: Textile</ul>
+
+        <ul>Insole: Textile</ul>
+
+        <ul>Sole: Other</ul>
+
+        <ul>Width: Standard (F fitting)</ul>
+       </p>
+
+      <h5>Colour</h5>
       
-          <div class="column">
-          <img id="featured" src="./images/black-sketch1.jpg" alt="">
+      <div class="switch-label">
         
-          <div id="slide-wrapper">
-            <img id="slideLeft" class="arrow" src="./images/arrow_back_ios_black_24dp.svg" alt="back arrow">
-        
-            <div id="slider">
-              <img class="thumbnail active" src="./images/black-sketch1.jpg" alt="">
-              <img class="thumbnail" src="./images/black-sketch2.jpg" alt="">
-              <img class="thumbnail" src="./images/black-sketch3.jpg" alt="">
-              <img class="thumbnail" src="./images/black-sketch4.jpg" alt="">
-              <img class="thumbnail" src="./images/black-sketch5.jpg" alt="">
-              <img class="thumbnail" src="./images/black-sketch6.jpg" alt="">
-            </div>
-        
-            <img id="slideRight" class="arrow" src="./images/arrow_forward_ios_black_24dp.svg" alt="forward arrow">
-          </div>
+        <img class="crossed-out" src="./images/black-sketch2.jpg">
+       <button class="blue"><img class="blue" src="./images/blue-sketch2.jpg"></button>
+        <img class="crossed-out" src="./images/grey-sketch3.jpg">
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+
+      <h5>Sizes</h5> <button id="sizebtn">Click here for size guide</button>
+
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">X</span>
+          <p>Shoes displayed on Jonesbootmaker.co.uk are listed in British or European sizes. <br> To convert them to your local sizes please use the chart below. These conversions are for guidance only and may vary by manufacturer.</p>
+            <table >
+              <tr>
+                <th>UK Size</th>
+                <th>European</th>
+                <th>US Size</th>
+                <th>Japanese</th>
+              </tr>
+              
+
+              <tr>
+              <td>5</td>
+              <td>39</td>
+              <td>5.5</td>
+              <td>24</td>
+            </tr>
+            <tr>
+              <td>5.5</td>
+              <td>39.5</td>
+              <td>6</td>
+              <td>24.5</td>
+            </tr>
+            <tr>
+              <td>6</td>
+              <td>40</td>
+              <td>6.5</td>
+              <td>25</td>
+            </tr>
+            <tr></tr>
+              <td>6.5</td>
+              <td>40.5</td>
+              <td>7</td>
+              <td>25.5</td>
+            </tr>
+            <tr>
+              <td>7</td>
+              <td>41</td>
+              <td>7</td>
+              <td>25.5</td>
+            </tr>
+              <tr>
+              <td>7.5</td>
+              <td>41.5</td>
+              <td>8</td>
+              <td>26.5</td>
+              <tr>
+              </tr>
+            <tr>
+              <td>8</td>
+              <td>42</td>
+              <td>8.5</td>
+              <td>25.5</td>
+            </tr>
+            <tr>
+              <td>8.5</td>
+              <td>42.5</td>
+              <td>8.5</td>
+              <td>27</td>
+            </tr>
+            </table>
+            
         </div>
-        
-        <div class="column">
-          <h1> Skechers Lace-Up Trainer</h1>
-          <hr>
-          <h3 class="newPrice">£48.99</h3>
-          <h3 class="RRP">RRP£69.99</h3>
-
-          <p>Ready, get flex, go! Make comfort your advantage to your sporty days, the lightweight trainer by Skechers is fitted with a memory foam insole for moulded cushioned support and padded linings for an exceptional comfort fit. Complete with a lightweight, flexible sole with shock absorbing technology.
-
-            Gender: Male
-            
-            Upper: Textile
-            
-            Insole: Textile
-            
-            Sole: Other
-            
-            Width: Standard  (F fitting) </p>
-
-            <h5>Colour</h5>
-            <div class="switch-label">
-              <label for="black"><img class="crossed-out" src="./images/black-sketch2.jpg"></label>
-              <label for="blue"><img class="crossed-out" src="./images/blue-sketch2.jpg"></label>
-              <label for="grey"><img class="crossed-out" src="./images/grey-sketch3.jpg"></label>
-            </div>
-
-            <h5>Sizes</h5>
-            <div class="size-label">
-              <label for="7">7</label>
-              <label for="8">8</label>
-              <label for="10">10</label>
-              <label for="11">11</label>
-              <label for="12">12</label>
-            </div>
-
-            <div>
-            <a class="btn" href="">Buy Now</a>
-          </div>
-        </div>
-
+      
       </div>
 
-  <script src="app.js"></script> 
+
+      <div class="size-label">
+        <button for="7">7</button>
+        <button for="8">8</button>
+        <button for="10">10</button>
+        <button for="11">11</button>
+        <button for="12">12</button>
+      </div>
+
+      <div>
+        <br><br>
+        <button><a class="btn" href="">Buy Now</a></button>
+        <p class="laybuy">Spread the cost over 6 weeks for £8.16 with laybuy </p><br>
+        <p >Protect my shoes with IMBOX shoe care for £3.99 </p>
+        <ul>Protects against stains caused by road salt, food, water, etc. </ul>
+        <ul>Repels water, oil, mud, and much more</ul>
+        <ul>Prevents Sun fading and damage.</ul>
+        <ul>Keeps your footware breathable.</ul>
+        <ul>Safe and environmentally friendly.</ul>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+  <div class="order-container">
+    <div class="order-left">
+<p>
+  
+  <ul>FREE Delivery on Orders over £95</ul>
+  <ul>Prepaid UK returns for 99p/pair. Click here for more info</ul>
+  <ul>DPD Express Tracked Delivery (Next Day): £7.50 per order</ul>
+  <ul>Express Delivery (Next Day): £5.50 per order</ul>
+  <ul>24/48 Hour express delivery available, click here for more info</ul>
+  <span onclick="openNav()">Click for Shipping Information</span>  <br>
+  <span onclick="openReturnsNav()">Click for Returns Information</span> 
+   <!-- Shipping -->
+<div id="myNav" class="overlay">
+
+  
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">X</a>
+
+  <!-- Shipping content -->
+   <div class="overlay-content">
+  <h3 class="overlay-header">Product Shipping Info</h3> <br>
+  <p>UK Standard Delivery - up to 3-5 working days 
+    <br>
+    Standard UK delivery costs £3.50 and is free on orders over £95. Items are sent via Royal Mail and are usually delivered Monday to Saturday. Remote destinations may take longer. 
+    Express UK Delivery (Next Day) - order by 9pm Sunday to Friday and by 6.30pm on Saturday for just £4.99 per order. 
+    48-hour £4.50, 24-hour £5.50 per order
+    <br>
+    <br>
+    Orders will be sent out by Royal Mail tracked 24 hour. Deliveries are 7 days a week. Orders made by 9pm Sunday to Friday and by 6.30pm Saturday will be delivered the next day.
+    <br>
+    <br>
+    Spend over £95 and get Express delivery HALF PRICE
+    DPD Express Delivery - order by 2pm Monday to Friday. 
+    <br>
+    <br>
+    Orders will be sent out by DPD, this will include live tracking and Text Message notifications. Deliveries are made Monday to Friday for the cost of £7.50 with 1 hours delivery slots. 
+    EU Delivery Custom Fees
+    All parcels are sent from our Distribution Centre in the UK.
+    <br>
+    <br>
+    Orders under €150 will incur no additional VAT or duties when delivered in the EU.
+    <br>
+    <br>
+    We advise EU customers to place separate orders if your basket total will be over €150 as you will incur duties and taxes. We cannot split the order for you.
+    <br>
+    <br>
+    The prices displayed on the product page include UK VAT at 20%, VAT rates will be adjusted and charged at the checkout specific to the EU country VAT rates the goods will be delivered to.
+    <br>
+    <br>
+    Orders delivered outside the UK & EU may be subject to local customs duties and charges. Please check with your local customs first.
+    European and international delivery is priced per order, you can order as many products as you like all for the same flat rate postage.  European and International Delivery</p>
+  </div> 
+
+ </div>
+
+<!-- returns -->
+ 
+<div id="returnsNav" class="overlay">
+
+  
+  <a href="javascript:void(0)" class="closebtn" onclick="closeReturnsNav()">X</a>
+
+  <!-- Shipping content -->
+   <div class="overlay-content">
+  <h3 class="overlay-header">Easy 45-Day Returns</h3> <br>
+  <p><br>
+    If you change your mind about your purchase, please return the unused goods to us in their original packaging with the original proof of purchase, using the returns form included within your parcel. You can return your goods up to 45 days after purchase. Please note you will be charged £2.50 for your return if you hadn't purchased the 99p returns paid.
+    <br><br>
+    You can return in our stores for free, or via Royal Mail and Collect Plus visit https://jonesbootmaker.returns.international to return your items
+    Returns Paid
+    <br><br>
+    For 99p/item, you can pre-pay your returns simply visit https://jonesbootmaker.returns.international to choose Royal Mail or Collect Plus. We also have competitive returns options available outside the UK.
+    Royal Mail Home Collection Service
+    <br><br>
+    The Royal Mail have now made posting your parcel easier, with the help of their Home Collection Service, you can now return your order from the comfort of your own home. 
+    <br><br>
+    Simply use the returns address sticker provided with your order and book a collection suitable for you by visiting the Royal Mail website. 
+    <br><br>
+    https://send.royalmail.com/collect/youritems
+    Cancellation
+    <br><br>
+    Under the Consumer Contracts Regulations, you have the right to cancel your order for any reason within 14 days of receipt.
+    <br><br>
+    For information on how to cancel your order and how this process differs from a standard return, please contact our customer service team.
+    <br><br>
+    Exchanges
+    <br><br>
+    To exchange your goods, please order your replacement pair on our website and send your original items back for a refund. 
+    <br><br>
+    We are unable to exchange items sent back to our warehouse.
+    </p>
+  </div> 
+
+ </div>
+   
+  
+  
+   </p>
+</div>
+<div class="order-right">
+
+
+  <ul>UK Delivery:</ul>
+  <ul>£3.50 Standard</ul>
+  <ul>£5.50 Next Day</ul>
+  <ul>£7.50 Next Day DPD Tracked</ul>
+  
+ 
+</div>
+  </div>
+
+<!-- extra products -->
+
+<h2 class="accessorise-title">Accessorise your look</h2>
+    <div class="small-container">
+      
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/wallet.jpg" alt="">
+          <h4>Leather Wallet</h4>
+          <p>£19.00</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">
+          <img src="./images/belt.png" alt="">
+          <h4>Leather Belt</h4>
+          <p>£45.00</p>
+        </div>
+      </div>
+    </div>
+
+
+  <script src="app.js"></script>
 </body>
+
 </html>
