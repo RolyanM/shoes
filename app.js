@@ -1,4 +1,4 @@
-
+// change picture of the shoe
 
 let thumbnails = document.getElementsByClassName("thumbnail")
 let activeImages = document.getElementsByClassName("active")
@@ -87,38 +87,25 @@ let x = setInterval(function() {
   }
 }, 1000);
 
-//change pictures
 
 
-let changePicture = document.getElementsByClassName("thumbnail");
 
-let shoeBlue = document.getElementsByClassName("blue");
-
-shoeBlue.addEventListener("click", () => {
-  
-})
-
-shoeBlue.onclick = () => {
-  changePicture.src = "./images/blue-sketch1.jpg"
-}
-
-
-/* Open when someone clicks on the span element */
+/* Open */
 function openNav() {
   document.getElementById("myNav").style.width = "100%";
 }
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
+/* Close  */
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 } 
 
-
+/* Open */
 function openReturnsNav() {
   document.getElementById("returnsNav").style.width = "100%";
 }
 
-/* Close when someone clicks on the "x" symbol inside the overlay */
+/* Close  */
 function closeReturnsNav() {
   document.getElementById("returnsNav").style.width = "0%";
 } 
