@@ -59,7 +59,7 @@ window.onclick = (event) => {
 
 // timer
 
-let countDownDate = new Date("Sep 9, 2021 21:00:00").getTime();
+let countDownDate = new Date("Dec 7, 2021 21:00:00").getTime();
 
 // Update the count down every 1 second
 let x = setInterval(function() {
